@@ -70,12 +70,32 @@ def main():
     # illustrate sort()
     mylist1.sort()
     print("mylist: ", mylist1)
-    '''
+    
     months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
               "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
     n = int(input("endter a month number: "))
     print(months[n-1])
+    print()
+    '''
+
+    myStr = "text    \n"
+    print("*", myStr, "*", sep="")
+    print()
+    myStr = myStr.rstrip()
+    print("*", myStr, "*", sep="")
+
+    myStr = "CamelCase"
+    print(myStr)
+    s1 = myStr.upper()
+    print(s1)
+    s2 = myStr.lower()
+    print(s2)
+
+    myStr = "marry had a little lamb"
+    mylist = myStr.split()
+    print(mylist)
+
     print()
 
 
